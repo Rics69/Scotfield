@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220318104815"/>
+  <link rel="stylesheet" href="css/style.min.css?_v=20220318104815">
+  <title>Главная</title>
+</head>
+  <body>
+    <div class="cursor"></div>
+    <div class="follower"></div>
+    <div class="overlay">
+        <header class="header">
+    <div class="container">
+        <div class="header__top-block">
+            <div class="header__logo-block">
+                <img src="../images/logo.svg" alt="Logo" class="header__logo">
+                <p class="header__text-logo">Web devoleper</p>
+            </div>
+            <div class="header__menu-block">
+                <ul class="header__menu">
+                    <li><a class="text header__menu-link link" href="#">About</a></li>
+                    <li><a class="text header__menu-link link" href="#">Projects</a></li>
+                    <li><a class="text header__menu-link link" href="#">Reviews</a></li>
+                    <li><a class="text header__menu-link link" href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__bottom-block">
+            <div class="header__content">
+                <h1 class="title header__title">Michael <br>Scofield</h1>
+                <p class="header__subtext">Fullstack web developer</p>
+                <div class="header__professionals">
+                    <a href="#" class="header__professionals-item">UI / UX Design</a>
+                    <a href="#" class="header__professionals-item">QA Testing</a>
+                    <a href="#" class="header__professionals-item">Mobile Apps</a>
+                    <a href="#" class="header__professionals-item">Web development</a>
+                </div>
+            </div>
+            <div class="header__img canvas__item">
+                <canvas id="canvasOne" width="550" height="550">
+                    Your browser does not support HTML5 canvas.
+                </canvas>
+            </div>
+        </div>
+    </div>
+</header>
+        <section class="about">
+    <div class="container">
+        <p class="named about__named">About</p>
+        <h2 class="title about__title">History of my development:</h2>
+        <div class="about__years">
+            <div class="about__year-item">
+                <h4 class="title about__year-title">2015</h4>
+                <p class="text about__year-text">First project. Blog for the teacher</p>
+            </div>
+            <div class="about__year-item">
+                <h4 class="title about__year-title">2016</h4>
+                <p class="text about__year-text">Development of the first mobile application</p>
+            </div>
+            <div class="about__year-item">
+                <h4 class="title about__year-title">2017</h4>
+                <p class="text about__year-text">The portfolio includes over 100 projects</p>
+            </div>
+            <div class="about__year-item">
+                <h4 class="title about__year-title">2018</h4>
+                <p class="text about__year-text">First international project</p>
+            </div>
+            <div class="about__year-item">
+                <h4 class="title about__year-title">2019</h4>
+                <p class="text about__year-text">Launching a personal web development course</p>
+            </div>
+            <div class="about__year-item">
+                <h4 class="title about__year-title">2020+</h4>
+                <p class="text about__year-text">Started working in Google</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="projects">
+    <div class="container">
+        <div class="projects__top">
+            <p class="named projects__named">Projects</p>
+            <h2 class="title projects__title">100+ projects on different topics:</h2>
+            <div class="projects__tabs tabs">
+                <div class="tabs__nav">
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_1">Blogs</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_2">CRM</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_3">Educational   platform</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_4">Banking applications</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_5">Mobile applications</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_6">Mobile games</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_7">Social networks</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item" id="tab_1">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    Blogs
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_2">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    CRM
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_3">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    Educational   platform
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_4">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    Banking applications
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_5">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    Mobile applications
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_6">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    Mobile games
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__item" id="tab_7">
+                        <div class="tabs__row">
+                            <div class="tabs__item-left">
+                                <h4 class="title tabs__title">
+                                    Social networks
+                                </h4>
+                            </div>
+                            <div class="tabs__item-right">
+                                <div class="projects__faq faq">
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-1">
+                                        <label class="faq__title title" for="blog-1">Blog 1</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-2">
+                                        <label class="faq__title" for="blog-2">Blog 2</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                    <div class="faq__item">
+                                        <input class="faq__input" type="checkbox" id="blog-3">
+                                        <label class="faq__title" for="blog-3">Blog 3</label>
+                                        <div class="faq__text">
+                                            <p class="text">some kind of link to the site</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects__contact">
+            <h2 class="title projects__contact-title">Write to me and I will answer within the next 24 hours</h2>
+                <a href="#" class="projects__contact-btn modal__btn">Discuss the project</a>
+        </div>
+    </div>
+</section>
+
+<div class="modal__wrapper">
+    <div class="modal">
+        <div class="modal__close"><img src="../images/close-btn.svg" alt="cancel" width="10px" height="10px"></div>
+        <div class="modal__title"><span>Сontact me:</span></div>
+        <div class="modal__body">
+            <input class="modal__input" type="text" name="name" value="Name">
+            <input class="modal__input" type="text" name="message" value="Message">
+            <input class="modal__sub" type="submit" value="Discuss the project">
+        </div>
+    </div>
+</div>
+        <section class="reviews">
+    <div class="container">
+        <p class="named reviews__named">Reviews</p>
+        <h2 class="title reviews__title">What my clients say about me:</h2>
+        <div class="reviews__swiper">
+            <div class="arrows">
+                <div class="arrow__btn arrow__btn-prev">
+                    <img class="prev__arrow" src="../images/arrow-left-swiper.svg" alt="Arrow">
+                </div>
+                <div class="arrow__btn arrow__btn-next">
+                    <img class="next__arrow" src="../images/arrow-right-swiper.svg" alt="Arrow">
+                </div>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper__img"><picture><source srcset="../images/lincoln-swiper.webp" type="image/webp"><img src="../images/lincoln-swiper.png" alt="Lincoln"></picture></div>
+                        <div class="swiper__title title">Lincoln Burrows</div>
+                        <div class="swiper__text text">Thanks to Michael for doing everything efficiently on time and without broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not included in the original.</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__img"><picture><source srcset="../images/gretchen-swiper.webp" type="image/webp"><img src="../images/gretchen-swiper.png" alt="Gretchen"></picture></div>
+                        <div class="swiper__title title">Gretchen Morgan</div>
+                        <div class="swiper__text text">Thank you very much for your work, the project was completed very quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__img"><picture><source srcset="../images/paul-swiper.webp" type="image/webp"><img src="../images/paul-swiper.png" alt="Paul"></picture></div>
+                        <div class="swiper__title title">Paul Kellerman</div>
+                        <div class="swiper__text text">The performer who specifically understands the task. Very cool and easy to communicate. I did an excellent job, I will contact you. I advise everyone!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+    <footer class="footer">
+    <div class="footer__left">
+        <picture><source srcset="../images/footer-img.webp" type="image/webp"><img src="../images/footer-img.png" alt="Footer"></picture>
+    </div>
+    <div class="footer__right">
+            <h3 class="title footer__title">Calculate the timing and cost of <br> your project</h3>
+            <p class="text footer__text">Leave your phone number for communication</p>
+            <form class="footer__form">
+                <input type="text" name="name" placeholder="Name">
+                <input type="phone" name="phone" placeholder="Phone">
+                <input class="footer__message" type="text" name="message" placeholder="Message">
+                <button class="footer__btn" type="submit">Discuss the project</button>
+            </form>
+    </div>
+</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js?_v=20220318104815"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220318104815"></script>
+    <script src="js/app.min.js?_v=20220318104815"></script>
+  </body>
+</html> 
